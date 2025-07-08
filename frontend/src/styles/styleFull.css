@@ -1,0 +1,706 @@
+html, body, #root{
+  height: 100vh !important;
+  margin: 0;
+}
+/* ABOVE THIS LINE IS NEW */
+.containertext{
+    display: flex;
+    width: 25%;
+    align-items: start;
+    background-color: maroon;
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+.cats9{
+    display: flex;
+    width: 40%;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5a1212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    display: flex;
+    width: 80%;
+    align-items: stretch;
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 8px;
+    width: 80%;
+    text-align: left;
+    z-index: 1000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } */
+   .nav-link:hover {
+    text-decoration: underline;
+    color: turquoise;
+  } 
+  .background-img{
+    background-image: url("/images/cat_Designpage1.png"); 
+    /* background-image: url('./cat_Designpage1.png');  */
+    background-color: maroon;
+    /* background-size: cover ; */
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+  }
+    .product {
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+  /* .footer-custom {
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    text-align: center;
+    z-index: 500;
+
+  } */
+
+  .containerbuttons {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+  }
+
+  .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+button {
+    padding: 40px 20px;
+    font-size: 28px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #171612f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #A51212;
+  }
+
+
+
+.containerleft {
+    background-color: white !important;
+    margin: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 200px; /* Ensures a reasonable minimum height */
+  max-height: 1100px; /* Prevents excessive height differences */
+    
+}
+
+.containerright {
+    background-color: white;
+    margin: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-grow: 2;
+    
+    min-height: 300px; /* Ensures a reasonable minimum height */
+    max-height: 700px; /* Prevents excessive height differences */
+    
+}
+.custom-scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+
+    
+}
+
+.left-align {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    
+}
+
+
+.title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    padding: 1px;
+    background-color: whitesmoke;
+    /* padding: 20px; */
+    border: 8px;
+    width: 50%;
+    text-align: center;
+    margin-top: 80px;
+    z-index: 1;
+    position: relative;
+    position: relative;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* Styling the entire section */
+.offer-section {
+    max-width: 600px; /* Keeps content neatly contained */
+    margin: 0 auto; /* Centers the section */
+    text-align: center; /* Centers all text */
+    background-color: #f8f8f8; /* Light background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Styling each offer item */
+.offer-item {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+    
+}
+
+/* Styled list */
+.styled-list {
+    list-style-position: inside; /* Moves bullets closer */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns text and bullets */
+    padding-left: 0; /* Removes default padding */
+    font-weight: bold;
+}
+
+/* Styling the links */
+.offer-item a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0077cc; /* Blue link color */
+    font-weight: bold;
+}
+
+.offer-item a:hover {
+    color: #0055aa; /* Darker blue on hover */
+}
+ @media (min-width:971px) {
+  .dropdown {
+    display: none !important;
+  }
+  
+}
+
+@media screen and (max-width: 900px){
+ 
+  }
+  .dropdown {
+    display: block;
+  }
+
+   .nav-bar {
+      width: 100%;
+  } 
+
+  
+
+ 
+  
+
+
+/* Ensure the background extends when links wrap */
+@media (max-width: 980px) {  /* Adjust this value as needed */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+ .nav-links {
+    width: 100%;  /* Make sure the nav section stretches full width */
+    justify-content: center;  /*Center links on small screens */
+}  
+} 
+
+.age {
+  font-size: x-large;
+}
+
+select {
+  font-size: 18px; /* Change font size */
+  padding: 5px; /* Adjust padding for better spacing */
+}
+
+
+.calc-link {
+  font-weight: 700;
+  font-size: large;
+  /* background-color: whitesmoke; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.calc-link a {
+  color: red;
+}
+
+.supplies-link {
+  font-weight: 700;
+  font-size: large;
+     
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.supplies-link a {
+  color:red;
+  text-decoration: skyblue;
+}
+  .btn-primary{
+    background-color: #0074E4 !important;
+    outline-color: #A51212;
+  }
+
+  /* Container for the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: #A51212;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 200px; /* Set the desired width */
+  height: 50px; /* Set the desired height */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F9F9F9;
+  min-width: 200px; /* Matches the button width */
+  height: 50px; /* Set the desired height */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white !important;
+  background-color: darkred;
+  /* padding: 12px 16px; */
+  text-decoration: none;
+  display: block;
+  /* width: 100%; Ensures full width */
+  box-sizing: border-box; /* Includes padding in width */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color:black !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #A51212;
+}
+
+.supply-container {
+  max-height: 800px; /* Limits height to 80% of the viewport */
+  width: 100%;
+  overflow-y: auto; /* Enables vertical scrolling if content exceeds max height */
+  padding: 20px;
+  background: whitesmoke;
+  /* background: rgba(255, 255, 255, 0.8);  */
+  /* Optional: Adds a slight white background to improve readability */
+  border-radius: 10px; /* Optional: Adds rounded edges */
+}
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+li {
+  text-align: left;
+}
+
+.nav-bar a {
+  color: maroon;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+/* Style individual links */
+.nav-links a {
+  color: maroon;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+/* Hover effect NOT WORKING DUE TO BOOTSTRAP ????*/
+.nav-links a:hover {
+  /* background-color: #555; */
+  border-radius: 5px;
+  text-decoration: underline !important;
+  color: turquoise !important;
+}
+
+.containertext {
+  background-color: maroon;
+}
+/* Offer Section - Black Text with Blue Links */
+.offer-section {
+  color: black !important; /* Ensures text is black */
+  background-color: white; /* Optional: Makes sure it contrasts well */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Ensures all links inside offer-section are blue */
+.offer-section a {
+  color: blue !important; /* Forces links to be blue */
+  text-decoration: underline; /* Ensures they are clearly visible */
+}
+
+/* Optional: Change link color when hovered */
+.offer-section a:hover {
+  color: darkblue; /* Darkens when hovered */
+}
+
+/* Maroon Background Section */
+.containertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: maroon;
+  padding: 20px;
+  border-radius: 8px;
+  width: 95%; /* Set one width instead of repeating */
+  max-width: 900px; /* Prevents it from being too wide */
+  justify-content: center;
+  overflow: hidden; /* Prevents overflow outside the maroon box */
+}
+
+/* Scrollable Box */
+.supply-container {
+  max-height: 800px; /* Adjust height so it stays within the maroon box */
+  width: 100%;
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 20px;
+  background: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensures images inside supply-container scale properly */
+.supply-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* For Mobile Adjustments */
+@media screen and (max-width: 900px) {
+  .containertext {
+      width: 90%; /* Expands width for smaller screens */
+      padding: 15px;
+  }
+
+  .supply-container {
+      max-height: 300px; /* Smaller scroll area on mobile */
+      padding: 15px;
+  }
+}
+.scroll-box {
+  max-height: 800px;
+  overflow:auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+ @media (min-width: 990px) {
+  .nav-links {
+    display: none;
+  }
+}   
+a .nav-link  {
+  color: maroon !important;
+}
+.link-maroon .nav-link {
+  color: maroon !important;
+}
+/* THIS IS THE LINE BELOW IS ALL NEW */
+/* Button.css */
+.custom-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    /* Or your custom color */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    /* Add other styles as needed */
+}
+
+/* BarnCatHistory.module.css */
+.title {
+    text-align: center;
+    /* Add other title styles */
+}
+
+.container-fluid.container1 {
+    background-image: url('./your-background-image.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* Example text color on background */
+}
+/* Styles for the inner container */
+/* .container {
+    
+} */
+
+.containertext {
+    background-color: #800000;
+    /* Maroon color */
+    color: white;
+    border-radius: 8px;
+}
+
+.scroll-box {
+    /* Styles for the scrollable box */
+    padding: 15px;
+    max-height: 500px;
+    /* Example max height */
+    overflow-y: auto;
+}
+ /* Styles for the left container within the scroll box */
+/* .containerleft {
+   
+} */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 6px;
+}
+
+.shadow {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.containerbuttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.containerbuttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+
+    /* Add button specific styles */
+
+}
+
+.health {
+    background-color: #4CAF50;
+    /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.supplies {
+    background-color: #008CBA;
+    /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.history {
+    background-color: #f44336;
+    /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-custom {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   
+}
+/*maybe change this to a health only :-moz-user-disabled
+
+/* File: /styles/Health.module.css */
+
+.title {
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("/assets/background.jpg"); */
+    /* adjust as needed */
+    /* background-image: url("/images/cat_Designpage1.png"); */
+    background-size: cover;
+}
+
+.containertext {
+    background-color: maroon;
+    color: white;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.containerleft {
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.containerbuttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.health,
+.supplies,
+.history {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.health:hover,
+.supplies:hover,
+.history:hover {
+    background-color: #a22;
+}
+
+.footerCustom {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #222;
+    color: white;
+    margin-top: 2rem;
+
+}
+
+.main {
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 4rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    height: 40px;
+}
